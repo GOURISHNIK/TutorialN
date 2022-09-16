@@ -4,6 +4,7 @@ Basics non-parameterized job
 screenshots in extentreports
 listeners class
 logs
+pull
 
 
 
