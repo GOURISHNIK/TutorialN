@@ -3,4 +3,4 @@
 Basics non-parameterized job
 screenshots in extentreports
 listeners class
-logs
+logs changes made in workspace
