@@ -59,6 +59,7 @@ public class LoginTest extends Base {
 		logger = LogManager.getLogger(LoginTest.class.getName());
 		driver = initializeDriver();
 		logger.debug("browser launced");
+		
 		driver.manage().window().maximize();
 		driver.get(prop.getProperty("url"));
 	}
