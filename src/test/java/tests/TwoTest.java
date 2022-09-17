@@ -26,7 +26,7 @@ public class TwoTest extends Base{
 		
 		driver = initializeDriver();
 		driver.manage().window().maximize();
-		driver.get("http://omayo.blogspot.com/");
+		driver.get("http://tutorialsninja.com/demo/");
 	}
 
 	@AfterMethod
