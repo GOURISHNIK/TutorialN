@@ -58,6 +58,9 @@ public String takeScreenshot(String testName,WebDriver driver) throws IOExceptio
 	File SourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 	String destinationFilePath = System.getProperty("user.dir")+"\\screenshots\\"+testName+".png";
 	FileUtils.copyFile(SourceFile,new File(destinationFilePath));
+	
+	String imagePath = "http://localhost:8080/job/ToDel/ws/screenshots/"+testName+".png";
+	
 	return destinationFilePath;
 	
 	}
